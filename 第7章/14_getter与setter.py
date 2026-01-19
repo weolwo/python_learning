@@ -22,6 +22,7 @@ class Person:
     # 注册idcard属性getter方法，当访问Person实例的idcard属性时，下面的idcard方法就会被自动调用
     @property
     def idcard(self):
+        #负数索引 (-4)：在 Python 字符串中，正数索引从左往右（从 0 开始），而负数索引是从右往左数。-1 代表最后一个字符，-4 就代表倒数第 4 个字符。
         return self.__idcard[:6] + '********' + self.__idcard[-4:]
 
     # 注册idcard属性setter方法，当修改Person实例的idcard属性时，下面的idcard方法就会被自动调用
