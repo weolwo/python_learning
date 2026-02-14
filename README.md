@@ -1,1 +1,1 @@
-尚硅谷 python学习代码
+python学习代码
