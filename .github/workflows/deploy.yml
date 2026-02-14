@@ -2,7 +2,7 @@ name: Deploy VitePress site to Pages
 
 on:
   push:
-    branches: [main] # 只有推送到 main 分支时才触发
+    branches: [mastermaster] # 只有推送到 main 分支时才触发
 
 permissions:
   contents: read
