@@ -12,6 +12,10 @@
       repo: 'weolwo/python_learning',
       loadSidebar: 'sidebar.md',
     }
+  
+  fetch('_sidebar.md').then(res => {
+    if (res.status === 404) console.error('找不到 _sidebar.md 文件！');
+  });
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 </body>
