@@ -1,0 +1,28 @@
+{
+  "name": "python_study",
+  "version": "1.0.0",
+  "description": "尚硅谷 python学习代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weolwo/python_learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/weolwo/python_learning/issues"
+  },
+  "homepage": "https://github.com/weolwo/python_learning#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.28"
+  }
+}
